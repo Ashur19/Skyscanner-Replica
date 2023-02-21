@@ -1,9 +1,9 @@
 import './App.css';
-import Container from './Components/Header/Container'
+import Header from './Components/Header';
 
 function App() {
   return (
-    <section><Container/></section>
+    <Header/>
   );
 }
 
