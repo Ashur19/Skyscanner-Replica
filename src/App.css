@@ -8,12 +8,12 @@
 
   display: flex;
   justify-content: space-between;
-  
+
 }
 
 .homepage-nav-title img {
-    height: 30px;
-    width: 175px;
+  height: 30px;
+  width: 175px;
 }
 
 .homepage-nav-menus {
@@ -23,5 +23,31 @@
 
 .homepage-nav-menus button {
   background: none;
+  border: none;
+}
+
+.homepage-searchcontrols {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.homepage-searchcontrols-container{
+  width: 200px;
+  padding: 20px;
+  background-color: white;
+}
+
+.homepage-searchcontrols-from {
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-searchcontrols-from span {
+  color: grey;
+}
+
+.homepage-searchcontrols-from input {
   border: none;
 }

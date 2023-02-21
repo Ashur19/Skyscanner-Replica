@@ -19,10 +19,35 @@ const Header = () => {
             </div>
             <h1>Busca rápido en tus sitios de viajes favorito</h1>
             <div className="homepage-searchcontrols">
-                <div className="homepage-searchcontrols-from">
-                    <label>
-
-                    </label>
+                <div className="homepage-searchcontrols-container">
+                    <div className="homepage-searchcontrols-from">
+                        <span>Desde</span>
+                        <input/>
+                    </div>
+                </div>
+                <div className="homepage-searchcontrols-container">
+                    <div className="homepage-searchcontrols-from">
+                        <span>A</span>
+                        <input/>
+                    </div>
+                </div>
+                <div className="homepage-searchcontrols-container">
+                    <div className="homepage-searchcontrols-from">
+                        <span>Ida</span>
+                        <input/>
+                    </div>
+                </div>
+                <div className="homepage-searchcontrols-container">
+                    <div className="homepage-searchcontrols-from">
+                        <span>Vuelta</span>
+                        <input/>
+                    </div>
+                </div>
+                <div className="homepage-searchcontrols-container">
+                    <div className="homepage-searchcontrols-from">
+                        <span>Viaje y clase de cabina</span>
+                        <input/>
+                    </div>
                 </div>
             </div>
         </div>
