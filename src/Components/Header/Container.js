@@ -2,7 +2,7 @@ import Homepage from "./Homepage"
 
 const Container = () => {
 
-    return (
+    return(
         <Homepage/>
     )
 }
