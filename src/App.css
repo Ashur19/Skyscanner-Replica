@@ -1,27 +1,27 @@
-.Homepage {
+.homepage {
   background-color: #02122c;
   padding: 2%;
   color: white;
 }
 
-.Homepage-nav {
+.homepage-nav {
 
   display: flex;
   justify-content: space-between;
   
 }
 
-.Homepage-nav-title img {
+.homepage-nav-title img {
     height: 30px;
     width: 175px;
 }
 
-.Homepage-nav-menus {
+.homepage-nav-menus {
   display: flex;
   align-items: center;
 }
 
-.Homepage-nav-menus button {
+.homepage-nav-menus button {
   background: none;
   border: none;
 }
